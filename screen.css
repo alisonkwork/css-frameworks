@@ -30,12 +30,32 @@ h1 {
     margin: 0;
 }
 
-
-
 .description {
+    text-align: center;
     margin: 0 auto;
     width: 500px;
     padding: 50px;
+}
+
+h2 {
+    font-family: "Inria Serif", Georgia, 'Times New Roman', serif;
+    color: #6C534E;
+    margin-bottom: 20px;
+}
+
+.text-body-secondary {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #494848;
+}
+
+p {
+    color: #494848;
+}
+
+.btn {
+    border-radius: 0px;
+    margin: 15px;
 }
 
 
