@@ -1,1 +1,48 @@
-/* Add screen styles below */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:wght@400;700&display=swap');
+
+.navbar-brand {
+    font-family: "Inria Serif", Georgia, 'Times New Roman', serif;
+    font-weight: 800;
+    color: #262626;
+}
+
+.nav-link {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #7e7e7e;
+}
+
+.img-fluid {
+    border-top: 26px solid #6C534E;
+}
+  
+section .container-fluid {
+    position: absolute;
+    text-align: center;
+    top:25%;
+    color: #fff;
+    padding: 30px;
+}
+
+h1 {
+    font-family: "Inria Serif", Georgia, 'Times New Roman', serif;
+    margin: 0;
+}
+
+
+
+.description {
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
