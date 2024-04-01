@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:wght@400;700&display=swap');
 
+body {
+    background-color: #FAF7F5;
+}
+
 .navbar-brand {
     font-family: "Inria Serif", Georgia, 'Times New Roman', serif;
     font-weight: 800;
@@ -13,16 +17,8 @@
     color: #7e7e7e;
 }
 
-.img-fluid {
+.welcome {
     border-top: 26px solid #6C534E;
-}
-  
-section .container-fluid {
-    position: absolute;
-    text-align: center;
-    top:25%;
-    color: #fff;
-    padding: 30px;
 }
 
 h1 {
@@ -30,10 +26,14 @@ h1 {
     margin: 0;
 }
 
+.carousel-caption {
+    top: 25%;
+}
+
 .description {
     text-align: center;
     margin: 0 auto;
-    width: 500px;
+    width: 580px;
     padding: 50px;
 }
 
